@@ -38,7 +38,7 @@ to chatwith your node, you need to go to [Reward Page](https://www.gaianet.ai/re
 # Set Up a Chatbod for automation procces:
 ## Download Script:
 ```bash
-curl -L -o gaia2.py https://github.com/Rockst4r4/gaianet-ai/blob/main/gaia2.py
+curl -L -o gaia2.py https://raw.githubusercontent.com/Rockst4r4/gaianet-ai/refs/heads/main/gaia2.py
 ```
 ```bash
 screen -S gaia
@@ -61,7 +61,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y python3-pip pip bu
 ## then add your node exactly looks like previous Steps!
 # Chat with your own Node using bot
 ```
-curl -L -o gaia2.py https://github.com/Rockst4r4/gaianet-ai/blob/main/gaia1.py
+curl -L -o gaia1.py https://raw.githubusercontent.com/Rockst4r4/gaianet-ai/refs/heads/main/gaia1.py
 ```
 ### open screen
 ```
