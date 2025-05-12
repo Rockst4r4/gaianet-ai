@@ -21,7 +21,7 @@ Storage: 200 GB SSD
 I ran it with two models , so if you have vRam more than 12Gb so lets run it with ## gemma-1.1-7b-it model.
 # One line command for gemma-1.1-7b-it
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install -y python3-pip pip build-essential libssl-dev libffi-dev python3-dev && curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/0.4.28/download/install.sh' | bash && source /root/.bashrc && gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/gemma-1.1-7b-it/config.json && gaianet start && gaianet info 
+sudo apt update && sudo apt upgrade -y && sudo apt install -y python3-pip pip build-essential libssl-dev libffi-dev python3-dev && curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/download/0.4.28/install.sh' | bash && source /root/.bashrc && gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/gemma-1.1-7b-it/config.json && gaianet start && gaianet info 
 ```
 Then go to [gaianet Dashboard](https://gaianet.ai/reward?invite_code=RlgVgI) , signup , then go to [node settings](https://www.gaianet.ai/setting/nodes) then add your node by Connect New Node , Enter your Node ID and Device ID (shown you when you done with One-line Command) And join!
 # Join A Domain:
