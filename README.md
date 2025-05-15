@@ -55,10 +55,10 @@ ____________________________________________
 It reccomended to run with Qwen2-0.5B-Instruct Model
 # One-Line Command to run With Qwen2-0.5B Model!
 ```bash
-sudo apt update && sudo apt upgrade -y && sudo apt install -y python3-pip pip build-essential libssl-dev libffi-dev python3-dev && curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/0.4.28/download/install.sh' | bash && source /root/.bashrc && gaianet init --config gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
+sudo apt update && sudo apt upgrade -y && sudo apt install -y python3-pip pip build-essential libssl-dev libffi-dev python3-dev && curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash && source /root/.bashrc && gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
  && gaianet start && gaianet info
 ```
-## then add your node exactly looks like previous Steps!
+## then add your node exactly looks like previous Steps! and Add a Domain with qwen2-0.5b-instruct Models
 # Chat with your own Node using bot
 ```
 curl -L -o gaia1.py https://raw.githubusercontent.com/Rockst4r4/gaianet-ai/refs/heads/main/gaia1.py
