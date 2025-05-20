@@ -61,7 +61,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install -y python3-pip pip bu
 ## then add your node exactly looks like previous Steps! and Add a Domain with qwen2-0.5b-instruct Models
 # Chat with your own Node using bot
 ```
-curl -L -o gaia1.py https://raw.githubusercontent.com/Rockst4r4/gaianet-ai/refs/heads/main/gaia2.py
+curl -L -o gaia1.py https://raw.githubusercontent.com/Rockst4r4/gaianet-ai/refs/heads/main/gaia1.py
 ```
 ### open screen
 ```
